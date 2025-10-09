@@ -18,10 +18,10 @@ import Sainz from "./PNG/Sainz.png";
 import Albon from "./PNG/Albon.png";
 import Hulkenberg from "./PNG/Hulkenberg.png";
 import Bortoleto from "./PNG/Bortoleto.png";
-// import Alonso from "./PNG/Alonso.png";
-// import Stroll from "./PNG/Stroll.png";
+import Alonso from "./PNG/Alonso.png";
+import Stroll from "./PNG/Stroll.png";
 import Gasly from "./PNG/Gasly.png";
-// import Colapinto from "./PNG/Colapinto.png";
+import Colapinto from "./PNG/Colapinto.png";
 import Bearman from "./PNG/Bearman.png";
 import Ocon from "./PNG/Ocon.png";
 
@@ -305,7 +305,7 @@ function Regolamento() {
               <div className="d-flex flex-wrap justify-content-center">
                 <div className="mx-2 mb-3 text-center">
                   <img
-                    src={MaxV}
+                    src={Alonso}
                     alt="Fernando Alonso"
                     style={{ width: "100px", borderRadius: "8px" }}
                   />
@@ -315,7 +315,7 @@ function Regolamento() {
                 </div>
                 <div className="mx-2 mb-3 text-center">
                   <img
-                    src={MaxV}
+                    src={Stroll}
                     alt="Lance Stroll"
                     style={{ width: "100px", borderRadius: "8px" }}
                   />
@@ -335,7 +335,7 @@ function Regolamento() {
                 </div>
                 <div className="mx-2 mb-3 text-center">
                   <img
-                    src={MaxV}
+                    src={Colapinto}
                     alt="Franco Colapinto"
                     style={{ width: "100px", borderRadius: "8px" }}
                   />
